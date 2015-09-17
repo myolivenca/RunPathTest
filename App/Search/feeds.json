@@ -1,0 +1,14 @@
+﻿[
+    {
+        "type": "link",
+		"title": "Home",
+		"icon" : "home3",
+		"url": "http://www.google.com"
+    }
+	,
+	{
+        "type": "test",
+		"title" : "Available Dashboards",
+		"icon" : "shield" 	
+    }
+]

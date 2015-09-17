@@ -1,0 +1,67 @@
+﻿.Main {
+    margin: 2% 0;
+}
+.Content .iso-grid {
+    position: relative;
+}
+.Content .item {
+    position: relative;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.Content .item img {
+    max-width: 100%;
+}
+.Content .item .ftr {
+    padding: 10px;
+}
+.form-block {
+    position: relative;
+}
+
+.form-block input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 30px;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s;
+}
+
+.form-block label {
+    color: #9e9e9e;
+    position: absolute;
+    bottom: 20px;
+    cursor: text;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+.form-block.active label {
+    font-size: 0.8rem;
+    -webkit-transform: translateY(-140%);
+    -moz-transform: translateY(-140%);
+    -ms-transform: translateY(-140%);
+    -o-transform: translateY(-140%);
+    transform: translateY(-140%);
+    color: #26a69a;
+}
+
+.form-block.active input {
+    border-color:#26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+}
