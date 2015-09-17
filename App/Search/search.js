@@ -71,12 +71,7 @@
                 block: "=",
                 onLoad: "&onLoad"
             },
-            templateUrl: 'App/Search/section.html',
-            link: function (scope, element, attrs) {
-                element.bind('load', function (e) {
-                    scope.onLoad();
-                });
-            }
+            templateUrl: 'App/Search/section.html'
         };
     })
     .directive('imgLoad', function () {
@@ -84,7 +79,6 @@
             link: function (scope, element, attrs) {
                 element.bind('load', function (e) {
                     scope.onLoad();
-                    scope.load = true;
                 });
             }
         };
